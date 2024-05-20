@@ -1,0 +1,33 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+header {
+    color: black;
+    padding: 50px;
+    text-align: center;
+    font-size: 36px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+#left-section {
+    flex: 2;
+}
+
+#right-section {
+    flex: 9;
+    background-color: #949494;
+}
+
+.facts {
+    padding: 20px;
+}
+
+.attraction {
+    padding: 20px;
+}
